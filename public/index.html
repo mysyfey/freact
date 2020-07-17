@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+
+		.expandable {
+			overflow: hidden;
+		}
+
+		.expand-content {
+			max-height: 50px;
+			overflow: hidden;
+		}
+
+		.expand-content-exit-done,
+		.expand-content-enter {
+		  max-height: 50px;
+		}
+
+		.innocent {
+			font-size:35px;
+		}
+
+		.expand-content-enter-active {
+		  max-height: 500px;
+		  transition: all 1000ms;
+		}
+
+		.expand-content-enter-done,
+		.expand-content-exit {
+		  max-height: 500px;
+		}
+
+		.expand-content-exit-active {
+		  max-height:50px;
+		  transition: max-height 500ms;
+		}
+
+		</style>
+	</head>
+	<body>
+		<div id="root"></div>
+
+		<script src="./../dist/main.js"></script>
+	</body>
+</html>

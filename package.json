@@ -1,0 +1,30 @@
+{
+  "name": "freact",
+  "version": "1.0.0",
+  "description": "freact, a simpler react, allows you to easily build Web UIs using almost the same API as react.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.12",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangfei20/freact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangfei20/freact/issues"
+  },
+  "homepage": "https://github.com/wangfei20/freact#readme"
+}

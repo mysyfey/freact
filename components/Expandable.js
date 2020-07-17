@@ -1,33 +1,8 @@
-import React from './../freact/freact'
-import CSSTransition from './MyCSSTransition'
-//import {CSSTransition}  from 'react-transition-group'
-
-/*const Expandable = ({children})=>{
-	
-	var [expand,setExpand] = useState(false)
-
-
-	return (
-
-			<div className="expandable">
-			
-				<CSSTransition 
-					in={expand} 
-					classNames="expand-content"
-					timeout={1000}>
-					<div className="expand-content">{children}</div>
-				</CSSTransition>
-
-				<div className="expand-button-section">
-					<button onClick={()=>setExpand(!expand)} className="expand-section">{ expand ? "Hide" : "Expand"}</button>
-				</div>
-			</div>
-		);
-	
-};*/
+import React from './../freact'
+import CSSTransition from './CSSTransition'
 
 class Expandable extends React.Component{
-	
+
 	constructor(props){
 		super(props)
 		this.state = {expand:false}
@@ -41,9 +16,9 @@ class Expandable extends React.Component{
 		return (
 
 			<div class="expandable">
-			
-				<CSSTransition 
-					in={expand} 
+
+				<CSSTransition
+					in={expand}
 					classNames="expand-content"
 					timeout={1000}>
 					<div class="expand-content">{children}</div>
