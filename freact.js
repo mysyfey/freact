@@ -1,4 +1,4 @@
-
+// Component
 class Component {
 
     constructor(props){
